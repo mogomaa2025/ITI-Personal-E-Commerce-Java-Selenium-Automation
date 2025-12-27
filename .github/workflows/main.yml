@@ -31,9 +31,10 @@ jobs:
 
       - name: Install Allure CLI
         run: |
-          sudo wget https://github.com/allure-framework/allure2/releases/download/2.29.1/allure-2.29.1.tgz
-          sudo tar -zxvf allure-2.29.1.tgz -C /opt/
-          sudo ln -s /opt/allure-2.29.1/bin/allure /usr/bin/allure
+          # Download the correct Allure commandline package from Maven Central
+          wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.29.1/allure-commandline-2.29.1.zip
+          unzip allure-commandline-2.29.1.zip -d /opt/
+          echo "/opt/allure-2.29.1/bin" >> $GITHUB_PATH
 
       - name: Generate Allure Report
         if: always()
