@@ -43,9 +43,9 @@ public class CartTest extends BaseTestClass {
     Headers         .clickCartButton();
     Assertions      .assertEqual(cart
                     .getQuantityByProductName(productName), 1, "Unexpected Quantity Input Text");
-    cart            .ClickButtonByText("+") // [1] intial price saved here
+    cart            .ClickButtonByText("+")
                     .waitUntileQuantityInputTextToBe(2)
-                    .waitUntileTextOfQuantityPriceChanged(); // [2] price changed here
+                    .waitAnimationInput("2");
     Assertions      .assertEqual(cart
                     .getQuantityByProductName(productName), 2, "Unexpected Quantity Input Text")
                     .assertEqual(cart
@@ -70,9 +70,9 @@ public class CartTest extends BaseTestClass {
                     .getQuantityPriceAsDouble(productName), Double.parseDouble(priceTriple), "Unexpected Quantity Price");
     cart            .ClickButtonByText("-")
                     .waitUntileQuantityInputTextToBe(2)
-                    .ClickButtonByText("-") // [1] save intial price first
+                    .ClickButtonByText("-")
                     .waitUntileQuantityInputTextToBe(1)
-                    .waitUntileTextOfQuantityPriceChanged(); // fix: false postive price bug **By Gomaa** [2]
+                    .waitAnimationInput("1");
     Assertions      .assertEqual(cart
                     .getQuantityByProductName(productName), 1, "Unexpected Quantity Input Text")
                     .assertEqual(cart

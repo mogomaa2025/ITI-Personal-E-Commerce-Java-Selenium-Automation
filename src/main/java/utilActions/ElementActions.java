@@ -393,6 +393,12 @@ public class ElementActions {
         wait.fluentWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+
+    public void waitAttToBe(By locator, String attr, String value) {
+        wait.fluentWait().until(ExpectedConditions.attributeToBe(locator,attr,value));
+    }
+
+
     //accept alert with typing address
     public void acceptAlertWithAddress(String address) {
         wait.fluentWait().until(d -> {

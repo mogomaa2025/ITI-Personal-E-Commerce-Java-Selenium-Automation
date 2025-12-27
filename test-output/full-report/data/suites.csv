@@ -1,2 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Test admin button","3101","TC_HD_016_admin_button","Default Suite","2025-12-27","passed","2025-12-27","Tests.HeadersTests","GOMAA-ITI-UI-Graduation-Java-Seleinum","Tests.HeadersTests","TC_HD_016_admin_button"
+"Test add product to cart as user and check if the product is added to the cart","8132","TC_APC_001_AddProductToCartAsUser_With_ChechCart","Default Suite","2025-12-27","passed","2025-12-27","Tests.CartTest","ITI-Personal-E-Commerce-Java-Selenium-Automation-main","Tests.CartTest","TC_APC_001_AddProductToCartAsUser_With_ChechCart"
+"Test increase product quantity and check price","7288","TC_APC_002_IncreaseProductQuantityAndCheckPrice","Default Suite","2025-12-27","passed","2025-12-27","Tests.CartTest","ITI-Personal-E-Commerce-Java-Selenium-Automation-main","Tests.CartTest","TC_APC_002_IncreaseProductQuantityAndCheckPrice"

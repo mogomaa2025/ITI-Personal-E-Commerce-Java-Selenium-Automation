@@ -48,7 +48,7 @@ public class ITI_Cart {
 
     //ClickButtonByText +,-,×
 public ITI_Cart ClickButtonByText(String buttonText) {
-  IntialTextOfQuantityPrice();
+    // IntialTextOfQuantityPrice();
     String xpath = String.format(BUTTON_CONTAINS_XPATH, buttonText);
     By buttonLocator = By.xpath(xpath);
     actions.click(buttonLocator);
@@ -64,24 +64,9 @@ public ITI_Cart ClickButtonByText(String buttonText) {
 
 
 
-// price changing waiting **By Gomaa** important
-public String IntialTextOfQuantityPrice(){
-    return actions.getText(firstProductPrice);
-}
-public String FinalTextOfQuantityPrice(){
-    return actions.getText(firstProductPrice);
-}
-public boolean isTextOfQuantityPriceChanged(){
-    String intialText = IntialTextOfQuantityPrice();
-    String finalText = FinalTextOfQuantityPrice();
-    return !intialText.equals(finalText);
-}
-public ITI_Cart waitUntileTextOfQuantityPriceChanged(){
-    while (!isTextOfQuantityPriceChanged()) {
-        try {Thread.sleep(50);  } catch (InterruptedException e) {e.printStackTrace();} // tiny waiting 50ms
-    }
-    return this;
-}
+
+
+
 
 // total price changing waiting **By Gomaa** important
 public String IntialTextOfTotalPrice(){
@@ -129,6 +114,20 @@ public ITI_Cart waitUntileQuantityInputTextToBe(int quantity) {
    actions.waitUntileTextOfLocatorToBe(QUANTITY_INPUT, String.valueOf(quantity));
    return this;
 }
+
+//wait input animation
+    public void waitAnimationInput(String attValue)
+    {
+        actions.gomaaSmartWait(QUANTITY_INPUT);
+        actions.waitAttToBe(QUANTITY_INPUT,"value",attValue);
+
+
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
+    }
 
 
 
