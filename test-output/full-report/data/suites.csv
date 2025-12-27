@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test admin button","3101","TC_HD_016_admin_button","Default Suite","2025-12-27","passed","2025-12-27","Tests.HeadersTests","GOMAA-ITI-UI-Graduation-Java-Seleinum","Tests.HeadersTests","TC_HD_016_admin_button"

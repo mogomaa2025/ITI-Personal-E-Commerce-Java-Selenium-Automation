@@ -1,0 +1,20 @@
+{
+    "headers":
+    {
+        "home": "Home",
+        "products": "Products",
+        "cart": "Cart",
+        "inlineAlertCart":"Please login to continue",
+        "orders": "Orders",
+        "help": "Help",
+        "contact": "Contact",
+        "advancedSearch": "Advanced Search",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "notifications": "Notifications",
+        "profile": "Profile",
+        "wishlist": "Wishlist",
+        "admin": "Admin"
+    }
+}

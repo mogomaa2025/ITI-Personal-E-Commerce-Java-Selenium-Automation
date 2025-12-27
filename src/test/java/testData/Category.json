@@ -1,0 +1,16 @@
+{
+    "categories":
+    {
+        "elec": "Electronics",
+        "elecProduct" : "Laptop",
+        "cloth": "Clothing",
+        "clothProduct" : "T-Shirt",
+        "Books": "Books",
+        "bookProduct" : "Python",
+        "home": "Home & Garden",
+        "homeProduct" : "",
+        "containHome" : "Home",
+        "Accessories" : "Accessories",
+        "accessoriesNoProducts" : "No products found"
+    }
+}
