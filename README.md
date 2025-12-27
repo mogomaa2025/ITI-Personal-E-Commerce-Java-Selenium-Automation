@@ -9,29 +9,23 @@ A comprehensive **Selenium WebDriver** automation framework for E-Commerce web a
 
 ---
 
-## Screenshots
+### 🛍️ Framework
+| | |
+|:---:|:---:|
+| ![Home/Nav](https://i.ibb.co/G3dw1CLz/image.png) | ![Product Grid](https://i.ibb.co/g8W2cHq/image.png) |
+| ![Details](https://i.ibb.co/G326vMkq/image.png) | ![Cart View](https://i.ibb.co/Rk0VTPFM/image.png) |
+| ![Checkout](https://i.ibb.co/JRjL1b7n/image.png) | ![Login/Auth](https://i.ibb.co/21Qp29ny/image.png) |
+| ![Registration](https://i.ibb.co/2J9zKHv/image.png) | ![User Profile](https://i.ibb.co/q3VFKkn7/image.png) |
+| ![Admin Panel](https://i.ibb.co/DPy089W1/image.png) | ![Product Mgmt](https://i.ibb.co/fd3Sm9xN/image.png) |
+| ![Inventory](https://i.ibb.co/9ky0vZyF/image.png) | ![Edit Product](https://i.ibb.co/LzJRNQLh/image.png) |
+| ![Add Item](https://i.ibb.co/mVXxyHkX/image.png) | ![Database View](https://i.ibb.co/J9RWthZ/image.png) |
+| ![Settings](https://i.ibb.co/ksmNQHN7/image.png) | ![Logs](https://i.ibb.co/LzTGq2jC/image.png) |
 
-![img](https://i.ibb.co/G3dw1CLz/image.png)
-![img](https://i.ibb.co/g8W2cHq/image.png)
-![img](https://i.ibb.co/G326vMkq/image.png)
-![img](https://i.ibb.co/Rk0VTPFM/image.png)
-![img](https://i.ibb.co/JRjL1b7n/image.png)
-![img](https://i.ibb.co/21Qp29ny/image.png)
-![img](https://i.ibb.co/2J9zKHv/image.png)
-![img](https://i.ibb.co/q3VFKkn7/image.png)
-![img](https://i.ibb.co/DPy089W1/image.png)
-![img](https://i.ibb.co/fd3Sm9xN/image.png)
-![img](https://i.ibb.co/9ky0vZyF/image.png)
-![img](https://i.ibb.co/LzJRNQLh/image.png)
-![img](https://i.ibb.co/mVXxyHkX/image.png)
-![img](https://i.ibb.co/J9RWthZ/image.png)
-![img](https://i.ibb.co/ksmNQHN7/image.png)
-![img](https://i.ibb.co/LzTGq2jC/image.png)
-![img](https://i.ibb.co/8nQSJkg4/image.png)
-![img](https://i.ibb.co/HDNQDYMZ/image.png)
-![img](https://i.ibb.co/k2j9BhZV/image.png)
-![img](https://i.ibb.co/whDgvg5j/image.png)
-
+### 🔍 Reports
+| | |
+|:---:|:---:|
+| ![Workflow A](https://i.ibb.co/8nQSJkg4/image.png) | ![Workflow B](https://i.ibb.co/HDNQDYMZ/image.png) |
+| ![Workflow C](https://i.ibb.co/k2j9BhZV/image.png) | ![Workflow D](https://i.ibb.co/whDgvg5j/image.png) |
 ## 🎯 Design Patterns & Architecture
 
 ### 1. Fluent API Pattern (Method Chaining)
