@@ -9,7 +9,7 @@ A comprehensive **Selenium WebDriver** automation framework for E-Commerce web a
 
 ---
 
-### 🛍️ Framework
+### 🛍️ Screenshotss
 | | |
 |:---:|:---:|
 | ![Home/Nav](https://i.ibb.co/G3dw1CLz/image.png) | ![Product Grid](https://i.ibb.co/g8W2cHq/image.png) |
@@ -20,10 +20,6 @@ A comprehensive **Selenium WebDriver** automation framework for E-Commerce web a
 | ![Inventory](https://i.ibb.co/9ky0vZyF/image.png) | ![Edit Product](https://i.ibb.co/LzJRNQLh/image.png) |
 | ![Add Item](https://i.ibb.co/mVXxyHkX/image.png) | ![Database View](https://i.ibb.co/J9RWthZ/image.png) |
 | ![Settings](https://i.ibb.co/ksmNQHN7/image.png) | ![Logs](https://i.ibb.co/LzTGq2jC/image.png) |
-
-### 🔍 Reports
-| | |
-|:---:|:---:|
 | ![Workflow A](https://i.ibb.co/8nQSJkg4/image.png) | ![Workflow B](https://i.ibb.co/HDNQDYMZ/image.png) |
 | ![Workflow C](https://i.ibb.co/k2j9BhZV/image.png) | ![Workflow D](https://i.ibb.co/whDgvg5j/image.png) |
 ## 🎯 Design Patterns & Architecture
