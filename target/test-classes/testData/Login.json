@@ -1,0 +1,41 @@
+{
+  "valid": {
+    "username": "test@test.test",
+    "password": "test@123",
+    "successMessage": "Please enter a valid email address."
+  },
+  "invaliduser": {
+    "username": "wrong@gmail.com",
+    "password": "wrong@123",
+    "ExpectedError": "Invalid credentials"
+  },
+  "invalidpass": {
+    "username": "test@test.test",
+    "password": "wrong",
+    "ExpectedError": "Invalid credentials"
+  },
+  "emptyPass": {
+    "username": "test@test.test",
+    "password": "",
+    "ExpectedError": "Email and password are required"
+  },
+  "emptyMail": {
+    "username": "",
+    "password": "test@123",
+    "ExpectedError": "Please fill out this field"
+  },
+  "admin": {
+    "username": "admin@test.com",
+    "password": "admin123",
+    "successMessage": "Please enter your email."
+  },
+  "noatinemail": {
+    "username": "testtest.test",
+    "password": "test@123",
+    "ExpectedError": "missing an '@'"
+  },
+  "alertMessages": {
+    "successLogin": "Login successful!",
+    "wrongCredentials": "Invalid credentials"
+  }
+}

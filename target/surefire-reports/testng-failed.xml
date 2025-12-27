@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="webPortalTest.endToEnd.ProductColorFilterTest">
+        <methods>
+          <include name="validateProductColorFilter_TC"/>
+          <include name="setup"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validatePerformLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ProductColorFilterTest -->
+      <class name="webPortalTest.endToEnd.AddToCartTest">
+        <methods>
+          <include name="validatePerformLogin"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateAddingProductToCart"/>
+          <include name="validateNavigatingToCertainCategory"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.AddToCartTest -->
+      <class name="webPortalTest.endToEnd.ProductPriceFilterTest">
+        <methods>
+          <include name="validateProductPriceFilter_TC"/>
+          <include name="setup"/>
+          <include name="validatePerformLogin"/>
+          <include name="tearDown"/>
+          <include name="validateNavigatingToCertainCategory"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ProductPriceFilterTest -->
+      <class name="webPortalTest.endToEnd.CheckoutWithInvalidPhoneTest">
+        <methods>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="checkoutWithInvalidPhone"/>
+          <include name="tearDown"/>
+          <include name="validateAddingProductToCart"/>
+          <include name="setup"/>
+          <include name="validatePerformLogin"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.CheckoutWithInvalidPhoneTest -->
+      <class name="webPortalTest.endToEnd.CheckoutWithEmptyFieldTest">
+        <methods>
+          <include name="checkoutLeavingEmptyAddress"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateAddingProductToCart"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.CheckoutWithEmptyFieldTest -->
+      <class name="webPortalTest.endToEnd.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="PreSetup"/>
+          <include name="emptyPasswordLogin_TC"/>
+          <include name="invalidPasswordLogin_TC"/>
+          <include name="validLogin_TC"/>
+          <include name="invalidUserLogin_TC"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.LoginTest -->
+      <class name="webPortalTest.endToEnd.ProductSizeFilterTest">
+        <methods>
+          <include name="validateProductSizeFilter_TC"/>
+          <include name="tearDown"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ProductSizeFilterTest -->
+      <class name="webPortalTest.endToEnd.SpecProdToCartTest">
+        <methods>
+          <include name="validateCertainProductDetails"/>
+          <include name="tearDown"/>
+          <include name="validateNavigatingToCartPage_TC"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.SpecProdToCartTest -->
+      <class name="webPortalTest.endToEnd.OrderConfirmationTest">
+        <methods>
+          <include name="validateShopAgain"/>
+          <include name="validateProceedingToCheckout"/>
+          <include name="validateSubmitOrder"/>
+          <include name="validateAddingProductToCart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validateConfirmationPageDetails"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validatePerformLogin"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.OrderConfirmationTest -->
+      <class name="webPortalTest.endToEnd.RemoveFromCartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateRemovingProductFromCart"/>
+          <include name="tearDown"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validateAddingProductToCart"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.RemoveFromCartTest -->
+      <class name="webPortalTest.endToEnd.CheckOutTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateProceedingToCheckout"/>
+          <include name="validateProceedingToConfirmationPage"/>
+          <include name="tearDown"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validateAddingProductToCart"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.CheckOutTest -->
+      <class name="webPortalTest.endToEnd.ElectronicBrandFilterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validatePerformLogin"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validateProductFilters_TC"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ElectronicBrandFilterTest -->
+      <class name="webPortalTest.endToEnd.ShopTest">
+        <methods>
+          <include name="validateCategoriesPresence_TC"/>
+          <include name="validateNavigationToProductPage_TC"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ShopTest -->
+      <class name="webPortalTest.endToEnd.AllCategoriesToCartTest">
+        <methods>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validateAddingProductToCart"/>
+          <include name="tearDown"/>
+          <include name="validatePerformLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.AllCategoriesToCartTest -->
+      <class name="webPortalTest.endToEnd.ProductTypeFilterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateProductTypeFilters_TC"/>
+          <include name="tearDown"/>
+          <include name="validateNavigatingToCertainCategory"/>
+          <include name="validatePerformLogin"/>
+        </methods>
+      </class> <!-- webPortalTest.endToEnd.ProductTypeFilterTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

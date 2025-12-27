@@ -1,0 +1,12 @@
+{
+    "products":
+    {
+        "addToCartSuccess":"Added to cart!",
+        "addToCartGuest":"Please login to add items to cart"
+    },
+    "cart":
+    {
+        "clearCartSuccess":"Cart cleared",
+        "orderSuccess":"Order placed successfully!"
+    }
+}
