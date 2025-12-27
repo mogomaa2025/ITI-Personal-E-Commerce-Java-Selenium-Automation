@@ -1,0 +1,786 @@
+[DEBUG] - [27-12-2025 04:14:52] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\gowano\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml"
+[INFO] - [27-12-2025 02:59:33] [main] [Listners.TestNGListners] - Test Execution started
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - allure-results directory cleaned
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - ScreenShots directory cleaned
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - Recordings directory cleaned
+[INFO] - [27-12-2025 02:59:33] [main] [fileUtils.FileAndTerminalManager] - File deleted: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/Logs/logs.log
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - Logs directory cleaned
+[INFO] - [27-12-2025 02:59:33] [main] [fileUtils.FileAndTerminalManager] - Directory created:  /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - ScreenShots directory Created
+[INFO] - [27-12-2025 02:59:33] [main] [fileUtils.FileAndTerminalManager] - Directory created:  /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/recordings
+[INFO] - [27-12-2025 02:59:33] [main] [listenerUtils.ListenersAssistant] - Recordings directory Created
+[INFO] - [27-12-2025 02:59:35] [main] [reports.AllureSetupEnvironment] - Environment properties file created: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/allure-results/environment.properties
+[INFO] - [27-12-2025 02:59:35] [main] [reports.AllureSetupEnvironment] - Allure already installed: /home/runner/.m2/repository/allure/allure-2.36.0
+[INFO] - [27-12-2025 02:59:35] [main] [Listners.TestNGListners] - ═══════════════════════════════════════════════════
+[INFO] - [27-12-2025 02:59:35] [main] [Listners.TestNGListners] - TEST SUITE STARTED: Surefire test
+[INFO] - [27-12-2025 02:59:35] [main] [Listners.TestNGListners] - ═══════════════════════════════════════════════════
+[INFO] - [27-12-2025 02:59:35] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 02:59:44] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 02:59:45] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 02:59:45] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 02:59:45] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 02:59:46] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 02:59:46] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 02:59:46] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 02:59:46] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 02:59:47] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 02:59:47] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 02:59:48] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 02:59:48] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 02:59:48] [main] [Listners.TestNGListners] - ok Test Duration: 1528ms
+[DEBUG] - [27-12-2025 02:59:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['categories']['elec']
+[DEBUG] - [27-12-2025 02:59:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['categories']['elecProduct']
+[INFO] - [27-12-2025 02:59:48] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 02:59:48] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 02:59:49] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 02:59:49] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_CAT_001_ElectronicsCategory
+[INFO] - [27-12-2025 02:59:49] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 02:59:49] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //a[contains(normalize-space(),'Electronics')]
+[INFO] - [27-12-2025 02:59:50] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: btn-apply-filters - Text: Apply Filters
+[INFO] - [27-12-2025 02:59:50] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-name - Text: Laptop Pro 15"
+[INFO] - [27-12-2025 02:59:50] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_CAT_001_ElectronicsCategory.png
+[INFO] - [27-12-2025 02:59:50] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 02:59:51] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 02:59:51] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_CAT_001_ElectronicsCategory
+[INFO] - [27-12-2025 02:59:51] [main] [Listners.TestNGListners] - ok Test Duration: 1181ms
+[INFO] - [27-12-2025 02:59:51] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 02:59:52] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 02:59:52] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 02:59:52] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_CAT_002_ClothingCategory
+[INFO] - [27-12-2025 02:59:52] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 02:59:52] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //a[contains(normalize-space(),'Clothing')]
+[INFO] - [27-12-2025 02:59:53] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: btn-apply-filters - Text: Apply Filters
+[INFO] - [27-12-2025 02:59:53] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-name - Text: Classic T-Shirt
+[INFO] - [27-12-2025 02:59:53] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_CAT_002_ClothingCategory.png
+[INFO] - [27-12-2025 02:59:53] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 02:59:54] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 02:59:54] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_CAT_002_ClothingCategory
+[INFO] - [27-12-2025 02:59:54] [main] [Listners.TestNGListners] - ok Test Duration: 1173ms
+[INFO] - [27-12-2025 02:59:54] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 02:59:55] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 02:59:55] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 02:59:55] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_CAT_003_BooksCategory
+[INFO] - [27-12-2025 02:59:55] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 02:59:56] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //a[contains(normalize-space(),'Books')]
+[INFO] - [27-12-2025 02:59:56] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: btn-apply-filters - Text: Apply Filters
+[INFO] - [27-12-2025 02:59:56] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-name - Text: Python Programming Guide
+[INFO] - [27-12-2025 02:59:56] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_CAT_003_BooksCategory.png
+[INFO] - [27-12-2025 02:59:56] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 02:59:57] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 02:59:57] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_CAT_003_BooksCategory
+[INFO] - [27-12-2025 02:59:57] [main] [Listners.TestNGListners] - ok Test Duration: 1130ms
+[INFO] - [27-12-2025 02:59:58] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 02:59:58] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 02:59:58] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 02:59:58] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_CAT_004_HomeGardenCategory
+[INFO] - [27-12-2025 02:59:58] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 02:59:59] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //a[contains(normalize-space(),'Home & Garden')]
+[INFO] - [27-12-2025 02:59:59] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: btn-apply-filters - Text: Apply Filters
+[INFO] - [27-12-2025 02:59:59] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_CAT_004_HomeGardenCategory.png
+[INFO] - [27-12-2025 02:59:59] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:00] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:00] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_CAT_004_HomeGardenCategory
+[INFO] - [27-12-2025 03:00:00] [main] [Listners.TestNGListners] - ok Test Duration: 871ms
+[INFO] - [27-12-2025 03:00:00] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:01] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:01] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:01] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_CAT_005_AccessoriesCategory
+[INFO] - [27-12-2025 03:00:01] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:02] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //a[contains(normalize-space(),'Accessories')]
+[INFO] - [27-12-2025 03:00:02] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: btn-apply-filters - Text: Apply Filters
+[INFO] - [27-12-2025 03:00:02] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: #no-products - Text: No products found.
+[INFO] - [27-12-2025 03:00:02] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_CAT_005_AccessoriesCategory.png
+[INFO] - [27-12-2025 03:00:02] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:03] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:03] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_CAT_005_AccessoriesCategory
+[INFO] - [27-12-2025 03:00:03] [main] [Listners.TestNGListners] - ok Test Duration: 1207ms
+[INFO] - [27-12-2025 03:00:04] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:04] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:04] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:04] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:00:04] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:05] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:05] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:00:05] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:00:06] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:06] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 03:00:06] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:07] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:07] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:00:07] [main] [Listners.TestNGListners] - ok Test Duration: 1431ms
+[INFO] - [27-12-2025 03:00:07] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:07] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:08] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:09] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:00:09] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:00:09] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:00:10] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:10] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:10] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_MO_001_MakeOrderAsUser
+[INFO] - [27-12-2025 03:00:10] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:10] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:11] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:00:11] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:12] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: //h4 - Text: Laptop Pro 15"
+[INFO] - [27-12-2025 03:00:12] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-checkout
+[INFO] - [27-12-2025 03:00:12] [main] [utilActions.ElementActions] - Alert accepted with address: 123 valid address
+[INFO] - [27-12-2025 03:00:13] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Order placed successfully!
+[INFO] - [27-12-2025 03:00:13] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_MO_001_MakeOrderAsUser.png
+[INFO] - [27-12-2025 03:00:13] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:14] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:14] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_MO_001_MakeOrderAsUser
+[INFO] - [27-12-2025 03:00:14] [main] [Listners.TestNGListners] - ok Test Duration: 2808ms
+[INFO] - [27-12-2025 03:00:14] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:14] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:15] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:16] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:00:16] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:00:16] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:00:17] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:17] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:17] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_MO_002_MakeOrderAsUser
+[INFO] - [27-12-2025 03:00:17] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:17] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:18] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:00:18] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:19] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: //h4 - Text: Laptop Pro 15"
+[INFO] - [27-12-2025 03:00:19] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-checkout
+[INFO] - [27-12-2025 03:00:19] [main] [utilActions.ElementActions] - Alert accepted with address: 
+[INFO] - [27-12-2025 03:00:19] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_MO_002_MakeOrderAsUser.png
+[INFO] - [27-12-2025 03:00:19] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:20] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:20] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_MO_002_MakeOrderAsUser
+[INFO] - [27-12-2025 03:00:20] [main] [Listners.TestNGListners] - ok Test Duration: 2198ms
+[INFO] - [27-12-2025 03:00:20] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:21] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:21] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:21] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:00:21] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:21] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:22] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:00:22] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:00:23] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:23] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 03:00:23] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:24] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:24] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:00:24] [main] [Listners.TestNGListners] - ok Test Duration: 1964ms
+[INFO] - [27-12-2025 03:00:24] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:25] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:25] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:25] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_002_AddProductToCartAsGuest
+[INFO] - [27-12-2025 03:00:25] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:25] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:26] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Please login to add items to cart
+[INFO] - [27-12-2025 03:00:26] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_002_AddProductToCartAsGuest.png
+[INFO] - [27-12-2025 03:00:26] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:27] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:27] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_002_AddProductToCartAsGuest
+[INFO] - [27-12-2025 03:00:27] [main] [Listners.TestNGListners] - ok Test Duration: 943ms
+[INFO] - [27-12-2025 03:00:27] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:27] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:28] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:29] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:00:29] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:00:29] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:00:30] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:30] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:30] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_001_AddProductToCart
+[INFO] - [27-12-2025 03:00:30] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:30] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:31] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:00:31] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:00:31] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:32] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:32] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:00:32] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_001_AddProductToCart.png
+[INFO] - [27-12-2025 03:00:32] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:33] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:33] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_001_AddProductToCart
+[INFO] - [27-12-2025 03:00:33] [main] [Listners.TestNGListners] - ok Test Duration: 2263ms
+[INFO] - [27-12-2025 03:00:34] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:34] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:35] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:35] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:00:35] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:00:36] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:00:36] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:36] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:36] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_003_AddProductToCartBadgeIncrement
+[INFO] - [27-12-2025 03:00:36] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:37] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:37] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:00:37] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:00:38] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:38] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:39] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:00:39] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:00:39] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 1
+[INFO] - [27-12-2025 03:00:39] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_003_AddProductToCartBadgeIncrement.png
+[INFO] - [27-12-2025 03:00:39] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:40] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:40] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_003_AddProductToCartBadgeIncrement
+[INFO] - [27-12-2025 03:00:40] [main] [Listners.TestNGListners] - ok Test Duration: 2655ms
+[INFO] - [27-12-2025 03:00:40] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:41] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:42] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:42] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:00:42] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:00:43] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:00:43] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:43] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:00:43] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_004_AddFirstPageAllProductsAndSeeBadgeCount
+[INFO] - [27-12-2025 03:00:43] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:00:44] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:00:44] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:00:44] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:00:44] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:00:45] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:45] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:46] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Mouse')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:46] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:47] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Keyboard')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:47] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:48] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Monitor')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:48] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:49] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'USB')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:49] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:50] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Webcam')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:50] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:51] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Speaker')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:51] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:52] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Earbuds')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:52] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:53] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Headset')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:53] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:54] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Smart Watch')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:54] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:55] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Tablet')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:55] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:56] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Power Bank')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:00:56] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:00:56] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:00:56] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:00:57] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 12
+[INFO] - [27-12-2025 03:00:57] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_004_AddFirstPageAllProductsAndSeeBadgeCount.png
+[INFO] - [27-12-2025 03:00:57] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:00:58] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:00:58] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_004_AddFirstPageAllProductsAndSeeBadgeCount
+[INFO] - [27-12-2025 03:00:58] [main] [Listners.TestNGListners] - ok Test Duration: 13450ms
+[INFO] - [27-12-2025 03:00:58] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:00:58] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:00:59] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:00:59] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:00] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:00] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:01] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:01] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:01] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_005_AddProductToCartFromProductDetials
+[INFO] - [27-12-2025 03:01:01] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:01] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//a[contains(text(), 'View Details')]
+[INFO] - [27-12-2025 03:01:01] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.cssSelector: .footer
+[INFO] - [27-12-2025 03:01:02] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: product-detail-name - Text: Laptop Pro 15"
+[INFO] - [27-12-2025 03:01:02] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.cssSelector: .footer
+[INFO] - [27-12-2025 03:01:02] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: product-detail-price - Text: $899.99
+[INFO] - [27-12-2025 03:01:02] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_005_AddProductToCartFromProductDetials.png
+[INFO] - [27-12-2025 03:01:02] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:03] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:03] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_005_AddProductToCartFromProductDetials
+[INFO] - [27-12-2025 03:01:03] [main] [Listners.TestNGListners] - ok Test Duration: 1393ms
+[INFO] - [27-12-2025 03:01:03] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:04] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:04] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:04] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:01:04] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:05] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:05] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:05] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:05] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:06] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 03:01:06] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:07] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:07] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:01:07] [main] [Listners.TestNGListners] - ok Test Duration: 1505ms
+[INFO] - [27-12-2025 03:01:07] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:07] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:08] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:01:08] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:09] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:09] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:10] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:10] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:10] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_001_AddProductToCartAsUser_With_ChechCart
+[INFO] - [27-12-2025 03:01:10] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:10] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:10] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:10] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:11] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:11] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:12] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:01:12] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:01:12] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 1
+[INFO] - [27-12-2025 03:01:13] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:13] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: //h4 - Text: Laptop Pro 15"
+[INFO] - [27-12-2025 03:01:13] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .item-total - Text: $899.99
+[INFO] - [27-12-2025 03:01:13] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_001_AddProductToCartAsUser_With_ChechCart.png
+[INFO] - [27-12-2025 03:01:13] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:14] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:14] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_001_AddProductToCartAsUser_With_ChechCart
+[INFO] - [27-12-2025 03:01:14] [main] [Listners.TestNGListners] - ok Test Duration: 3775ms
+[INFO] - [27-12-2025 03:01:15] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:15] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:16] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:01:16] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:17] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:17] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:17] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:17] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:17] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_002_IncreaseProductQuantityAndCheckPrice
+[INFO] - [27-12-2025 03:01:17] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:18] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:18] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:18] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:19] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:19] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:20] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:01:20] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:01:20] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 1
+[INFO] - [27-12-2025 03:01:20] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:21] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //button[contains(normalize-space(),'+')]
+[INFO] - [27-12-2025 03:01:21] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_002_IncreaseProductQuantityAndCheckPrice.png
+[INFO] - [27-12-2025 03:01:21] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:22] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:22] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_002_IncreaseProductQuantityAndCheckPrice
+[INFO] - [27-12-2025 03:01:22] [main] [Listners.TestNGListners] - ok Test Duration: 3890ms
+[INFO] - [27-12-2025 03:01:22] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:23] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:24] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:01:24] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:25] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:25] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:25] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:25] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:25] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_003_DecreaseProductQuantityAndCheckPrice
+[INFO] - [27-12-2025 03:01:25] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:26] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:26] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:26] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:27] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:27] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:28] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:28] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:29] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:29] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:30] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Added to cart!
+[INFO] - [27-12-2025 03:01:30] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:01:30] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 1
+[INFO] - [27-12-2025 03:01:31] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:31] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //button[contains(normalize-space(),'-')]
+[INFO] - [27-12-2025 03:01:32] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //button[contains(normalize-space(),'-')]
+[INFO] - [27-12-2025 03:01:32] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_003_DecreaseProductQuantityAndCheckPrice.png
+[INFO] - [27-12-2025 03:01:32] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:33] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:33] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_003_DecreaseProductQuantityAndCheckPrice
+[INFO] - [27-12-2025 03:01:33] [main] [Listners.TestNGListners] - ok Test Duration: 6588ms
+[INFO] - [27-12-2025 03:01:33] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:34] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:34] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:01:35] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:35] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:36] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:36] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:36] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:36] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_004_CartTotalsFor3DifferentProducts
+[INFO] - [27-12-2025 03:01:36] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:37] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:37] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:37] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:37] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:38] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:38] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:39] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Mouse')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:39] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:40] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Keyboard')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:41] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:41] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:01:41] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 3
+[INFO] - [27-12-2025 03:01:41] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:42] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-total - Text: $1074.97
+[INFO] - [27-12-2025 03:01:42] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-total - Text: $1074.97
+[INFO] - [27-12-2025 03:01:42] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: (//p[contains(@id, 'cart-item-total')])[1] - Text: $899.99
+[INFO] - [27-12-2025 03:01:42] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: (//p[contains(@id, 'cart-item-total')])[2] - Text: $24.99
+[INFO] - [27-12-2025 03:01:43] [main] [utilActions.ElementActions] - Text retrieved from element: By.xpath: (//p[contains(@id, 'cart-item-total')])[3] - Text: $149.99
+[INFO] - [27-12-2025 03:01:43] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_004_CartTotalsFor3DifferentProducts.png
+[INFO] - [27-12-2025 03:01:43] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:44] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:44] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_004_CartTotalsFor3DifferentProducts
+[INFO] - [27-12-2025 03:01:44] [main] [Listners.TestNGListners] - ok Test Duration: 6771ms
+[INFO] - [27-12-2025 03:01:44] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:44] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:45] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:01:46] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:01:46] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:01:46] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:01:47] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:47] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:47] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_APC_005_PriceAfterClearCart
+[INFO] - [27-12-2025 03:01:47] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:47] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Laptop')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:48] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:48] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Mouse')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:49] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:49] [main] [utilActions.ElementActions] - Element clicked: By.xpath: //div[@id='products-grid']//div[.//h3[contains(text(), 'Keyboard')]]//button[contains(text(), 'Add to Cart')]
+[INFO] - [27-12-2025 03:01:50] [main] [utilActions.ElementActions] - Element clicked: By.cssSelector: .alert-close
+[INFO] - [27-12-2025 03:01:50] [main] [utilActions.ElementActions] - gomaaSmartWait3: Both animation and transition conditions met for element: By.id: cart-count
+[INFO] - [27-12-2025 03:01:50] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-count - Text: 3
+[INFO] - [27-12-2025 03:01:51] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:51] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:51] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:51] [main] [utilActions.ElementActions] - Text retrieved from element: By.className: alert-message - Text: Cart cleared
+[INFO] - [27-12-2025 03:01:52] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: cart-total - Text: $0.00
+[INFO] - [27-12-2025 03:01:52] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_APC_005_PriceAfterClearCart.png
+[INFO] - [27-12-2025 03:01:52] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:53] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:53] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_APC_005_PriceAfterClearCart
+[INFO] - [27-12-2025 03:01:53] [main] [Listners.TestNGListners] - ok Test Duration: 5021ms
+[INFO] - [27-12-2025 03:01:53] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:53] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:54] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:54] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:01:54] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:54] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:01:55] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:01:55] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:01:55] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:01:55] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 03:01:55] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:01:56] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:01:56] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:01:56] [main] [Listners.TestNGListners] - ok Test Duration: 1462ms
+[INFO] - [27-12-2025 03:01:56] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:01:57] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:01:57] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:01:57] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_001_SearchProduct_All
+[INFO] - [27-12-2025 03:01:57] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:01:58] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: 
+[INFO] - [27-12-2025 03:01:58] [main] [utilActions.ElementActions] - Selected value 'All Categories' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:01:58] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: 1.00
+[INFO] - [27-12-2025 03:01:59] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: 1000.00
+[INFO] - [27-12-2025 03:01:59] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:00] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_001_SearchProduct_All.png
+[INFO] - [27-12-2025 03:02:00] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:01] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:01] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_001_SearchProduct_All
+[INFO] - [27-12-2025 03:02:01] [main] [Listners.TestNGListners] - ok Test Duration: 2688ms
+[INFO] - [27-12-2025 03:02:01] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:02] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:02] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:02] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_002_SearchProduct_With_Electronics_Category
+[INFO] - [27-12-2025 03:02:02] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:02] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: 
+[INFO] - [27-12-2025 03:02:03] [main] [utilActions.ElementActions] - Selected value 'Electronics' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:03] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: 200.00
+[INFO] - [27-12-2025 03:02:03] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: 700.00
+[INFO] - [27-12-2025 03:02:04] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:04] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-category - Text: Electronics
+[INFO] - [27-12-2025 03:02:05] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_002_SearchProduct_With_Electronics_Category.png
+[INFO] - [27-12-2025 03:02:05] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:06] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:06] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_002_SearchProduct_With_Electronics_Category
+[INFO] - [27-12-2025 03:02:06] [main] [Listners.TestNGListners] - ok Test Duration: 2491ms
+[INFO] - [27-12-2025 03:02:06] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:06] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:06] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:06] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_003_SearchProduct_With_Jeans
+[INFO] - [27-12-2025 03:02:06] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:07] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: Jeans
+[INFO] - [27-12-2025 03:02:07] [main] [utilActions.ElementActions] - Selected value 'Clothing' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:07] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: 
+[INFO] - [27-12-2025 03:02:08] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: 
+[INFO] - [27-12-2025 03:02:08] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:08] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-category - Text: Clothing
+[INFO] - [27-12-2025 03:02:09] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_003_SearchProduct_With_Jeans.png
+[INFO] - [27-12-2025 03:02:09] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:10] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:10] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_003_SearchProduct_With_Jeans
+[INFO] - [27-12-2025 03:02:10] [main] [Listners.TestNGListners] - ok Test Duration: 2047ms
+[INFO] - [27-12-2025 03:02:10] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:10] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:10] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:10] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_004_SearchProduct_With_Python
+[INFO] - [27-12-2025 03:02:10] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:11] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: Python
+[INFO] - [27-12-2025 03:02:11] [main] [utilActions.ElementActions] - Selected value 'Books' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:11] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: 
+[INFO] - [27-12-2025 03:02:12] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: 
+[INFO] - [27-12-2025 03:02:12] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:12] [main] [utilActions.ElementActions] - Text retrieved from element: By.cssSelector: .product-category - Text: Books
+[INFO] - [27-12-2025 03:02:13] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_004_SearchProduct_With_Python.png
+[INFO] - [27-12-2025 03:02:13] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:14] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:14] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_004_SearchProduct_With_Python
+[INFO] - [27-12-2025 03:02:14] [main] [Listners.TestNGListners] - ok Test Duration: 2067ms
+[INFO] - [27-12-2025 03:02:14] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:14] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:14] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:14] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_005_SearchProduct_With_NonExistProduct
+[INFO] - [27-12-2025 03:02:14] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:15] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: non-exist-product
+[INFO] - [27-12-2025 03:02:15] [main] [utilActions.ElementActions] - Selected value 'All Categories' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:15] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: 
+[INFO] - [27-12-2025 03:02:16] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: 
+[INFO] - [27-12-2025 03:02:16] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:17] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_005_SearchProduct_With_NonExistProduct.png
+[INFO] - [27-12-2025 03:02:17] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:18] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:18] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_005_SearchProduct_With_NonExistProduct
+[INFO] - [27-12-2025 03:02:18] [main] [Listners.TestNGListners] - ok Test Duration: 1909ms
+[INFO] - [27-12-2025 03:02:18] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:18] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:18] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:18] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_006_SearchProduct_With_NonExistProduct
+[INFO] - [27-12-2025 03:02:18] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:19] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: 
+[INFO] - [27-12-2025 03:02:19] [main] [utilActions.ElementActions] - Selected value 'All Categories' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:19] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: -1000
+[INFO] - [27-12-2025 03:02:20] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: -2000
+[INFO] - [27-12-2025 03:02:20] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:21] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_006_SearchProduct_With_NonExistProduct.png
+[INFO] - [27-12-2025 03:02:21] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:22] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:22] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_006_SearchProduct_With_NonExistProduct
+[INFO] - [27-12-2025 03:02:22] [main] [Listners.TestNGListners] - ok Test Duration: 2691ms
+[INFO] - [27-12-2025 03:02:22] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:23] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:23] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:23] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_SRCH_007_SearchProduct_With_ClearButton
+[INFO] - [27-12-2025 03:02:23] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:23] [main] [utilActions.ElementActions] - Text entered in element: By.id: search-input - Text: 
+[INFO] - [27-12-2025 03:02:24] [main] [utilActions.ElementActions] - Selected value 'All Categories' from dropdown: By.id: category-filter
+[INFO] - [27-12-2025 03:02:24] [main] [utilActions.ElementActions] - Text entered in element: By.id: min-price - Text: -1000
+[INFO] - [27-12-2025 03:02:24] [main] [utilActions.ElementActions] - Text entered in element: By.id: max-price - Text: -2000
+[INFO] - [27-12-2025 03:02:25] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-apply-filters
+[INFO] - [27-12-2025 03:02:26] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-filters
+[INFO] - [27-12-2025 03:02:26] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_SRCH_007_SearchProduct_With_ClearButton.png
+[INFO] - [27-12-2025 03:02:26] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:27] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:27] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_SRCH_007_SearchProduct_With_ClearButton
+[INFO] - [27-12-2025 03:02:27] [main] [Listners.TestNGListners] - ok Test Duration: 3144ms
+[INFO] - [27-12-2025 03:02:27] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:28] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:28] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:28] [main] [Listners.TestNGListners] - ║ TEST STARTED: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:02:28] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:29] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:02:29] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-clear-cart
+[INFO] - [27-12-2025 03:02:29] [main] [utilActions.ElementActions] - Alert accepted
+[INFO] - [27-12-2025 03:02:30] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:02:30] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/pre_condition_clear_cart.png
+[INFO] - [27-12-2025 03:02:30] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:31] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:31] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: pre_condition_clear_cart
+[INFO] - [27-12-2025 03:02:31] [main] [Listners.TestNGListners] - ok Test Duration: 1385ms
+[INFO] - [27-12-2025 03:02:31] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:31] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:32] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:32] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_001_Visibility_GuestUser_NavBar_Buttons
+[INFO] - [27-12-2025 03:02:32] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:32] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_001_Visibility_GuestUser_NavBar_Buttons.png
+[INFO] - [27-12-2025 03:02:32] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:33] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:33] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_001_Visibility_GuestUser_NavBar_Buttons
+[INFO] - [27-12-2025 03:02:33] [main] [Listners.TestNGListners] - ok Test Duration: 327ms
+[INFO] - [27-12-2025 03:02:33] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:34] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:34] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:34] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_002_HomeButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:34] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:34] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-home
+[INFO] - [27-12-2025 03:02:35] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_002_HomeButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:35] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:36] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:36] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_002_HomeButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:36] [main] [Listners.TestNGListners] - ok Test Duration: 496ms
+[INFO] - [27-12-2025 03:02:36] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:36] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:36] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:36] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_003_ProductsButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:36] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:37] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:02:37] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_003_ProductsButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:37] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:38] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:38] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_003_ProductsButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:38] [main] [Listners.TestNGListners] - ok Test Duration: 505ms
+[INFO] - [27-12-2025 03:02:38] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:39] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:39] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:39] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_004_CartButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:39] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:39] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-cart
+[INFO] - [27-12-2025 03:02:41] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_004_CartButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:41] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:42] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:42] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_004_CartButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:42] [main] [Listners.TestNGListners] - ok Test Duration: 2159ms
+[INFO] - [27-12-2025 03:02:42] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:43] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:43] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:43] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_005_OrdersButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:43] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:43] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-orders
+[INFO] - [27-12-2025 03:02:45] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_005_OrdersButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:45] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:46] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:46] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_005_OrdersButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:46] [main] [Listners.TestNGListners] - ok Test Duration: 2156ms
+[INFO] - [27-12-2025 03:02:46] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:47] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:47] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:47] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_006_HelpButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:47] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:48] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-help
+[INFO] - [27-12-2025 03:02:48] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_006_HelpButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:48] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:49] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:49] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_006_HelpButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:49] [main] [Listners.TestNGListners] - ok Test Duration: 514ms
+[INFO] - [27-12-2025 03:02:49] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:49] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:50] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:50] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_007_ContactButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:50] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:50] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-contact
+[INFO] - [27-12-2025 03:02:50] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_007_ContactButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:50] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:51] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:51] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_007_ContactButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:51] [main] [Listners.TestNGListners] - ok Test Duration: 538ms
+[INFO] - [27-12-2025 03:02:51] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:52] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:52] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:52] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_008_AdvancedSearchButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:52] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:53] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-advanced-search
+[INFO] - [27-12-2025 03:02:53] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_008_AdvancedSearchButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:53] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:54] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:54] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_008_AdvancedSearchButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:54] [main] [Listners.TestNGListners] - ok Test Duration: 509ms
+[INFO] - [27-12-2025 03:02:54] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:54] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:55] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:55] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_009_LoginButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:55] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:55] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:02:55] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_009_LoginButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:55] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:56] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:56] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_009_LoginButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:56] [main] [Listners.TestNGListners] - ok Test Duration: 506ms
+[INFO] - [27-12-2025 03:02:56] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:57] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:02:57] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:02:57] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_010_RegisterButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:57] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:02:57] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-register
+[INFO] - [27-12-2025 03:02:58] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_010_RegisterButton_Nav_Bar_GuestUser.png
+[INFO] - [27-12-2025 03:02:58] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:02:59] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:02:59] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_010_RegisterButton_Nav_Bar_GuestUser
+[INFO] - [27-12-2025 03:02:59] [main] [Listners.TestNGListners] - ok Test Duration: 507ms
+[INFO] - [27-12-2025 03:02:59] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:02:59] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:00] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:00] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:03:01] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:03:01] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:01] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:03:01] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:01] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_011_visibility_of_user_navBar_Buttons
+[INFO] - [27-12-2025 03:03:01] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:02] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_011_visibility_of_user_navBar_Buttons.png
+[INFO] - [27-12-2025 03:03:02] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:03:03] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:03:03] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_011_visibility_of_user_navBar_Buttons
+[INFO] - [27-12-2025 03:03:03] [main] [Listners.TestNGListners] - ok Test Duration: 763ms
+[INFO] - [27-12-2025 03:03:03] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:03:04] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:05] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:05] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:03:05] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:03:06] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:06] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:03:06] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:06] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_012_profile_as_user
+[INFO] - [27-12-2025 03:03:06] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:07] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-profile
+[INFO] - [27-12-2025 03:03:07] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: profile-display-role - Text: User
+[INFO] - [27-12-2025 03:03:07] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_012_profile_as_user.png
+[INFO] - [27-12-2025 03:03:07] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:03:08] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:03:08] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_012_profile_as_user
+[INFO] - [27-12-2025 03:03:08] [main] [Listners.TestNGListners] - ok Test Duration: 900ms
+[INFO] - [27-12-2025 03:03:08] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:03:09] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:09] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:10] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:03:10] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:03:10] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:11] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:03:11] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:11] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_013_wishlist_as_user
+[INFO] - [27-12-2025 03:03:11] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:12] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-wishlist
+[INFO] - [27-12-2025 03:03:12] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_013_wishlist_as_user.png
+[INFO] - [27-12-2025 03:03:12] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:03:13] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:03:13] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_013_wishlist_as_user
+[INFO] - [27-12-2025 03:03:13] [main] [Listners.TestNGListners] - ok Test Duration: 679ms
+[INFO] - [27-12-2025 03:03:13] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:03:13] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:14] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:14] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:03:15] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:03:15] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:16] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:03:16] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:16] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_014_notifications_as_user
+[INFO] - [27-12-2025 03:03:16] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:16] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-notifications
+[INFO] - [27-12-2025 03:03:17] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_014_notifications_as_user.png
+[INFO] - [27-12-2025 03:03:17] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:03:18] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:03:18] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_014_notifications_as_user
+[INFO] - [27-12-2025 03:03:18] [main] [Listners.TestNGListners] - ok Test Duration: 696ms
+[INFO] - [27-12-2025 03:03:18] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:03:18] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:19] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:19] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: test@test.test
+[INFO] - [27-12-2025 03:03:20] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: test@123
+[INFO] - [27-12-2025 03:03:20] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:20] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-products
+[INFO] - [27-12-2025 03:03:20] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:20] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_015_logout_as_user
+[INFO] - [27-12-2025 03:03:20] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:21] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-logout
+[INFO] - [27-12-2025 03:03:22] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_015_logout_as_user.png
+[INFO] - [27-12-2025 03:03:22] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
+[INFO] - [27-12-2025 03:03:23] [main] [reports.AllureAttachmentManager] - Logs is Attached Successfully
+[INFO] - [27-12-2025 03:03:23] [main] [Listners.TestNGListners] - TEST PASSED: Test passed: TC_HD_015_logout_as_user
+[INFO] - [27-12-2025 03:03:23] [main] [Listners.TestNGListners] - ok Test Duration: 1499ms
+[INFO] - [27-12-2025 03:03:23] [main] [driverFactory.WebDriverFactory] - Starting driver for browser: EDGE
+[INFO] - [27-12-2025 03:03:24] [main] [driverFactory.EdgeFactory] - Driver created with timeouts: pageLoad=15s, script=15s, implicit=10s
+[INFO] - [27-12-2025 03:03:24] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-login
+[INFO] - [27-12-2025 03:03:25] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-email - Text: admin@test.com
+[INFO] - [27-12-2025 03:03:25] [main] [utilActions.ElementActions] - Text entered in element: By.id: login-password - Text: admin123
+[INFO] - [27-12-2025 03:03:25] [main] [utilActions.ElementActions] - Element clicked: By.id: btn-login-submit
+[INFO] - [27-12-2025 03:03:26] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-home
+[INFO] - [27-12-2025 03:03:26] [main] [Listners.TestNGListners] - ╔═══════════════════════════════════════════════════════╗
+[INFO] - [27-12-2025 03:03:26] [main] [Listners.TestNGListners] - ║ TEST STARTED: TC_HD_016_admin_button
+[INFO] - [27-12-2025 03:03:26] [main] [Listners.TestNGListners] - ╚═══════════════════════════════════════════════════════╝
+[INFO] - [27-12-2025 03:03:26] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-admin
+[INFO] - [27-12-2025 03:03:27] [main] [utilActions.ElementActions] - Element clicked: By.id: nav-profile
+[INFO] - [27-12-2025 03:03:27] [main] [utilActions.ElementActions] - Text retrieved from element: By.id: profile-display-role - Text: Admin
+[INFO] - [27-12-2025 03:03:27] [main] [reports.AllureAttachmentManager] - Screenshot is Attached Successfully: /home/runner/work/ITI-Personal-E-Commerce-Java-Selenium-Automation/ITI-Personal-E-Commerce-Java-Selenium-Automation/test-output/screenshots/TC_HD_016_admin_button.png
+[INFO] - [27-12-2025 03:03:27] [main] [coreMedia.ScreenshotsManager] - Successed To Capture Screenshot 
